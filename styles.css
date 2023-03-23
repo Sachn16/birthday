@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    text-shadow: 0 0 5px black;
+    }
+#pic-bff{
+    width: 150px;
+    border-radius: 50%;
+    border : 5px solid #EFB0C9;
+}
+h1, h2, h3, h4, p{
+    text-shadow: 0 0 1px black;
+} 
+#bday1{
+    background: #EFB0C9;
+    padding:  5px 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+#bday2{
+    background: #EFB0C9;
+    padding:  5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction : column ;
+}
+.gift1-img{
+    width: 400px ;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(images/gift-cover.png);
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+.first-gift{
+    margin: 40px;
+}
+.gift1-text1{
+    margin: 0 0 5px 0;
+}
+.gift1-text2{
+    margin: 5px 0 40px 0;
+} 
+#happyface:hover {
+background-image: url("images/giphy.gif");
+background-size: cover;
+}
+#fallingface:hover{
+    background-image: url("images/falling.gif");
+    background-size: cover;
+}
+#sadface:hover{
+    background-image: url("images/sad.gif");
+    background-size: cover;
+}
+#countingface:hover{
+    background-image: url("images/counting.gif");
+    background-size: cover;
+}
+#kissface:hover{
+    background-image: url("images/kissing.gif");
+    background-size: cover;
+}
